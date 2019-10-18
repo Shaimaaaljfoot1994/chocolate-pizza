@@ -1,0 +1,224 @@
+.container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.nav-bar {
+    position: relative;
+    margin-top: 2em;
+}
+
+.logo {
+    height: 3em;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.delicious {
+    font-family: 'Yellowtail', cursive;
+    font-size: 3.5vw;
+    font-weight: 600;
+    margin-left: 1.2em;
+    position: absolute;
+}
+
+.best-blog {
+    color: rgb(175, 172, 172);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: xx-small;
+    letter-spacing: .2em;
+    margin-left: 5.5em;
+    margin-top: 4.5em;
+    position: absolute;
+}
+
+.social-icons {
+    float: right;
+}
+
+.social {
+    width: 1.5em;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+h2 {
+    margin: 6em 0 4em 0;
+    padding: 8px;
+}
+
+/***** stripe *****/
+.stripe {
+  background-image: linear-gradient(45deg, #ffffff 28.57%, #e0e0e0 28.57%, #e0e0e0 50%, #ffffff 50%, #ffffff 78.57%, #e0e0e0 78.57%, #e0e0e0 100%);
+  background-size: 9.90px 9.90px;
+}
+
+.chocolate-pizza {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5vw;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 1vw;
+}
+
+.posted {
+    color: lightgray;
+    display: inline;
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.pizza-image {
+    margin-top: 2vw;
+    width: 100%;
+}
+
+.print-icon {
+    float: right;
+    width: 1.25em;
+    padding-top: 4px;
+}
+
+.print-button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: lightgray;
+    cursor: pointer;
+    float: right;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: medium;
+    margin-right: 0;
+    outline: none;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.instructions {
+    color: gray;
+    font-family: 'Crimson Text', serif;
+    font-size: large;
+    line-height: 2vw;
+    margin-top: 2vw;
+    text-indent: 3%;
+}
+
+.list-background {
+    margin-top: 3.5vw;
+    width: 100%;
+}
+
+/* .ingredients-list {
+    background-image: url("images/choco-pizza.png");
+} */
+
+.col-container {
+    color: gray;
+    display: inherit;
+    font-family: patrick hand, cursive;
+    line-height: 3.5vw;
+    /* did NOT want to do this but rule 1: make it work */
+    margin-top: -23vw;
+    width: 100%;
+}
+
+.col {
+    display: inline-block;
+    width: 40%;
+}
+
+.column-one {
+    margin-left: 13%;
+}
+
+/**** STRIKE THROUGH WHEN CHECKED ****/
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+}
+
+.about-vanessa {
+    color: gray;
+    display: inline-block;
+    font-family: 'Crimson Text', serif;
+    width: 75%;
+}
+
+.vanessa-pic {
+    position: absolute;
+    width: 6.5vw;
+}
+
+.vanessa-name {
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: .75em;
+    margin-left: 15%;
+}
+
+.vanessa-bio {
+    font-size: large;
+    line-height: 1.3em;
+    margin-left: 15%;
+    width: 85%;
+}
+
+.share-button {
+    display: inline;
+
+}
+
+.share {
+    color: white;
+    background-color: #ca8767;
+    float: right;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 31px;
+    padding: 12px;
+    text-transform: uppercase;
+    width: 16vw;
+}
+
+.bottom-section {
+    margin-top: 5em;
+}
+
+.line-footer, .words-footer {
+    color: gray;
+    font-family: 'Crimson Text', serif;
+    line-height: 1.5em;
+    margin-top: 5em;
+    text-align: center;
+}
+
+.line-footer1 {
+    background-color: gray;
+    width: 47%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.small-logo {
+    border: 2px solid white;
+    display: inline-block;
+    width: 2em;
+    margin: 0 6px;
+}
+
+.line-footer2 {
+    background-color: gray;
+    width: 47%;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+ h4 {
+    margin: 6em 0 4em 0;
+    padding: .5px;
+}
+
+.published {
+    margin-bottom: 5em;
+}
